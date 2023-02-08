@@ -1,0 +1,119 @@
+/* Author : Abhiram
+Date   : 03-02-2023 */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.firstdiv {
+    background-image: url(../images/academy-banner.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1,
+h3 {
+    font-weight: bolder;
+}
+.logo {
+    padding-right: 10%;
+}
+.firstdiv .col {
+    text-align: end;
+}
+.second-div {
+    min-height: 100vh;
+}
+.second-div-p {
+    background-color: #1e2531;
+    color: #65d7ef;
+    margin-left: -13%;
+}
+.second-div-p p {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.second-div-p p::before {
+    content: "{ ";
+    color: #c0245f;
+}
+.second-div-p p::after {
+    content: " }";
+    color: #c0245f;
+}
+.imgsecond {
+    margin-left: 100px;
+}
+.third-div {
+    background-image: url(../images/modulebg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-div p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.fourth-div {
+    min-height: 100vh;
+}
+.fourth-div-sub-1 {
+    background-image: url(../images/intrvwbg.jpg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth-div-sub-2 {
+    background-image: url(../images/testsbg.jpg);
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth-sub-p {
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #ffff;
+}
+.p4 {
+    padding: 15%;
+}
+.btn-outline {
+    color: #f26422;
+    border: 2px solid #f26422;
+}
+.footer-div {
+    min-height: 100vh;
+}
+@media screen and (max-width: 576px) {
+    .firstdiv .col {
+        text-align: center;
+    }
+    .firstdiv {
+        background-image: none;
+        background-color: #b0adae;
+    }
+    .second-div-p {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .second-div-p p {
+        font-size: 14px;
+    }
+    .imgsecond {
+        margin-left: 0;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .fourth-div-sub-2 {
+        margin-top: 40px !important;
+    }
+    .t {
+        padding: 1% !important;
+        text-align: start;
+    }
+}
